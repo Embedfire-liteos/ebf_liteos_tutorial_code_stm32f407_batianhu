@@ -335,7 +335,7 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls>--diag_suppress=1,47,177,186,223,1295</MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
               <IncludePath>..\Libraries\CMSIS\Include;..\Libraries\CMSIS\Device\ST\STM32F4xx\Include;..\Libraries\STM32F4xx_HAL_Driver\Inc;..\User;..\User\led;..\LiteOS\arch\arm\arm-m\cortex-m4;..\LiteOS\arch\arm\arm-m\include;..\LiteOS\cmsis\1.0;..\LiteOS\cmsis\2.0;..\LiteOS\cmsis;..\LiteOS\kernel\include;..\LiteOS\kernel\base\include;..\LiteOS\kernel\extended\include;..\LiteOS\OS_CONFIG</IncludePath>
