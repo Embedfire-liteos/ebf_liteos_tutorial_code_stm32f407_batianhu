@@ -198,7 +198,7 @@ extern "C" {
  * @ingroup los_config
  * Configuration item for mutex module tailoring
  */
-#define LOSCFG_BASE_IPC_MUX                                 YES
+#define LOSCFG_BASE_IPC_MUX                                 NO
 
 /**
  * @ingroup los_config
