@@ -753,14 +753,19 @@
               <FilePath>..\User\stm32f4xx_it.c</FilePath>
             </File>
             <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\board.c</FilePath>
+            </File>
+            <File>
               <FileName>bsp_led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\User\led\bsp_led.c</FilePath>
             </File>
             <File>
-              <FileName>board.c</FileName>
+              <FileName>bsp_key.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\User\board.c</FilePath>
+              <FilePath>..\User\key\bsp_key.c</FilePath>
             </File>
             <File>
               <FileName>core_delay.c</FileName>

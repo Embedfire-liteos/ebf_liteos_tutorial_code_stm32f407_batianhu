@@ -19,6 +19,7 @@
 #include "main.h"
 #include "stm32f4xx.h"
 #include "./led/bsp_led.h"
+#include "./key/bsp_key.h" 
 #include "./usart/bsp_debug_usart.h"
 
 static void SystemClock_Config(void);
@@ -35,6 +36,9 @@ void BSP_Init(void)
 
   /* LED 端口初始化 */
   LED_GPIO_Config();
+  
+  /* 按键初始化 */
+  Key_GPIO_Config();
   
   /* 串口初始化	*/
   DEBUG_USART_Config();
